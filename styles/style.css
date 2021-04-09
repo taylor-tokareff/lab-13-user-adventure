@@ -65,6 +65,10 @@ footer {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    color: blanchedalmond;
+    font-family: 'Creepster', cursive;
+    text-decoration: underline;
+    
 }
 
 .gutter-right {
@@ -127,11 +131,11 @@ footer {
 #name{
     display: flex;
     flex-direction: column;
-}
-
-#name{
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    background-color: red;
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
 }
 
 .center {
@@ -147,10 +151,40 @@ footer {
     
 }
 @keyframes blinkingText{
-    0%{     color: crimson;    }
-    49%{    color: crimson }
+    0%{     color: red;    }
+    49%{    color: red; }
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
 }
 
+#avatars {
+    display: flex;
+    color: blanchedalmond;
+}
+
+#start {
+    background-color: red;
+    color: black;
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(20, 180, 47);
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+
+}

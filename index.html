@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="styles/home.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -25,30 +29,29 @@
         <form id="character-select">
 
             <p class="name-input">
-                <label for="name">Name your avatar</label>
-                <input id="name" name="name" required>
+                <input id="name" name="name" placeholder="type name here" required>
             </p>
 
             <fieldset>
 
                 <p id="avatars">
-                    <label>
-                        <input type="radio" name="class" required value="Necromancer">
+                    <label class="column">
+                        <input type="radio" name="class" required value="Necromancer" class="radio">
                         <img src="img\necro.PNG" class="port">
                         Necromancer
                     </label>
-                    <label>
-                        <input type="radio" name="class" required value="Berserker">
+                    <label class="column">
+                        <input type="radio" name="class" required value="Berserker" class="radio">
                         <img src="img\berz.PNG" class="port">
                         Berserker
                     </label>
-                    <label>
-                        <input type="radio" name="class" required value="Paladin">
+                    <label class="column">
+                        <input type="radio" name="class" required value="Paladin" class="radio">
                         <img src="img\pal.PNG" class="port">
                         Paladin
                     </label>
-                    <label>
-                        <input type="radio" name="class" required value="Assassin">
+                    <label class="column">
+                        <input type="radio" name="class" required value="Assassin" class="radio">
                         <img src="img\ass.PNG" class="port">
                         Assassin
                     </label>
