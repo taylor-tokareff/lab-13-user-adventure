@@ -161,6 +161,7 @@ footer {
 #avatars {
     display: flex;
     color: blanchedalmond;
+    margin: 0px;
 }
 
 #start {
