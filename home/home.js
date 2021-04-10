@@ -3,8 +3,6 @@ import makeUser from './make-user.js';
 
 const characterSelect = document.querySelector('#character-select');
 
-console.log(characterSelect);
-
 characterSelect.addEventListener('submit', (event) => {
 
 
