@@ -14,6 +14,6 @@ characterSelect.addEventListener('submit', (event) => {
 
     saveUser(user);
 
-    window.location = '../map';
+    window.location = '../map/index.html';
 
 });
