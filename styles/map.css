@@ -194,3 +194,17 @@ input:-webkit-autofill{
     font-size: 30px;
 
 }
+
+#map-area {
+    background-image: url('../img/map.PNG');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.quest {
+    position: absolute;
+
+}
