@@ -10,7 +10,7 @@ function loadProfile() {
     const user = getUser();
 
     name.textContent = user.name;
-    meat.src = '../img/' + user.userClass + '.png';
+    meat.src = '../img/' + user.userClass + '.PNG';
     gold.textContent = user.gold;
 
     if (isDead(user)) {
