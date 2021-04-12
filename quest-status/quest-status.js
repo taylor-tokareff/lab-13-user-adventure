@@ -23,3 +23,13 @@ export function questCompleter(quest) {
     return span;
 }
 
+export function completedQuests(quests, user) {
+    for (let x = 0; x < quests.length; x++) {
+        const quest = quests[x];
+
+        if (!user.completed[quest.id]) {
+            return false;
+        }
+    }
+    return true;
+}

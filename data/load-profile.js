@@ -14,7 +14,7 @@ function loadProfile() {
     gold.textContent = user.gold;
 
     if (isDead(user)) {
-        hp.textContent = 'You succumb to your wounds. There is no glory in death, only an eternity of carnage and slaughter, and the laughter of thirsting gods...';
+        hp.textContent = 'You succumb to your wounds. There is no glory in death, only an eternity of carnage and slaughter, and the endless laughter of thirsting gods...';
     }
 
     else {
