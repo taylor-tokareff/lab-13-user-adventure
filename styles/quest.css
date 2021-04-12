@@ -20,6 +20,8 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-image: url("../img/skull-back.jpg"), url("../img/stone-background-11.png");
     background-repeat: no-repeat, repeat;
+    background-position: top, bottom;
+    
     
 }
 
