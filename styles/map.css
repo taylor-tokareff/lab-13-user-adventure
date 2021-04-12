@@ -208,3 +208,15 @@ input:-webkit-autofill{
     position: absolute;
 
 }
+
+a:link {
+    color: green;
+    font-family: creepster, cursive;
+    background-color: black;
+}
+
+a:visited {
+    color: blue;
+    font-family: creepster, cursive;
+    background-color: black;
+}

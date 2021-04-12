@@ -2,8 +2,8 @@ const crypt = {
     id: 'crypt',
     title: 'The Ancient Crypt',
     map: {
-        top: '89%',
-        left: '44%'
+        top: '80%',
+        left: '60%'
     },
     image: '../img/crypt.PNG',
     description:
@@ -48,8 +48,8 @@ const tower = {
     id: 'tower',
     title: 'The Abandoned Tower',
     map: {
-        top: '17%',
-        left: '37%'
+        top: '10%',
+        left: '69%'
     },
     image: '../img/tower.PNG',
     description:
@@ -94,8 +94,8 @@ const cave = {
     id: 'cave',
     title: 'The Cave of Horror',
     map: {
-        top: '31%',
-        left: '5%'
+        top: '28%',
+        left: '25%'
     },
     image: '../img/cave.PNG',
     description:
