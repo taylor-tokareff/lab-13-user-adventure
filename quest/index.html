@@ -17,28 +17,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+<header>
+    <div class="profile">
+        <img id="meat">
+        <span id="name"></span>
+        hp:<span id="hp"></span>
+        gold: <span id="gold"></span>
+</header>
 
 <body>
-    <header>
-        <div class="profile">
-            <img id="meat" src="">
-            <span id="name"></span>
-            <span class="profile-stat-label">HP:</span>
-            <span id="hp"></span>
-            <span class="profile-stat-label">Gold:</span>
-            <span id="gold"></span>
-        </div>
-    </header>
-
 
     <main>
-        <h1>Choose your destiny!</h1>
+        <h2 id="title"></h2>
+        <p>
+            <img id="image">
 
-        <nav id="quests">
+        </p>
+        <p id="description"></p>
+        <form id="choice-form">
+            <p id="choices"></p>
+            <button>Choose</button>
+        </form>
+        <section id="result" class="hidden">
+            <p id="result-description"></p>
+            <a href="../map">Back to Map</a>
+        </section>
 
-        </nav>
 
     </main>
 
-    <script type="module" src="./map.js"></script>
+
+
+
+    <script type="module" src="../map/map.js"></script>
 </body>

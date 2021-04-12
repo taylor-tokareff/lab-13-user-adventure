@@ -30,5 +30,5 @@ for (let quest of quests) {
         questDisplay = questLinkMaker(quest);
 
     }
-    nav.appendChild(questDisplay); // add the quest display to the nav
+    nav.appendChild(questDisplay);
 }
