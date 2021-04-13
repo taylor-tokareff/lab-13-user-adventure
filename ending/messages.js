@@ -1,7 +1,7 @@
 export const aliveGoldMessages = {
-    poor: 'Perhaps you would have been better off becoming a cobbler',
-    modest: 'Your cousin who went to bard college takes pity on your misfortune and gives you a job cleaning his stables',
-    rich: 'You use your wealth to buy a large castle where you reign over your subjects with fear and an iron gauntlet',
+    poor: 'perhaps you would have been better off becoming a cobbler',
+    modest: 'your cousin who went to bard college takes pity on your misfortune and gives you a job cleaning his stables',
+    rich: 'you use your wealth to buy a large castle where you reign over your subjects with fear and an iron gauntlet',
 };
 
 export const deadGoldMessages = {
