@@ -18,7 +18,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     font-family: 'Titillium Web', sans-serif;
-    background-image: url("../img/skull-back.jpg"), url("../img/stone-background-11.png");
+    background-image: url("../img/skull-back.jpg"), url("../img/final2.jpg");
     background-repeat: no-repeat, repeat;
     background-position: top, bottom;
     
@@ -52,7 +52,7 @@ section {
 header {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-image: url("../img/final2.jpg");
     color: chartreuse;
     box-shadow: var(--shadow);
 }
@@ -90,6 +90,8 @@ p {
     margin: var(--gutter);
     color: gold;
     text-align: center;
+    background-color: black;
+    font-size: 25px;
 }
   
 footer {
@@ -175,11 +177,13 @@ input:-webkit-autofill{
 }
 
 #start {
+    display: flex;
     background-color: red;
     color: black;
     font-family: 'Creepster', cursive;
     font-size: 30px;
     box-shadow: 2px 2px 2px 2px rgb(20, 180, 47);
+    justify-self: center;
 }
 
 .radio {
@@ -230,3 +234,10 @@ a:visited {
     display: none;
 }
 
+#quest-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
