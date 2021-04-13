@@ -7,6 +7,8 @@ function loadProfile() {
     const hp = document.getElementById('hp');
     const gold = document.getElementById('gold');
 
+
+
     const user = getUser();
 
     name.textContent = user.name;
@@ -14,11 +16,11 @@ function loadProfile() {
     gold.textContent = user.gold;
 
     if (isDead(user)) {
-        hp.textContent = 'You succumb to your wounds. There is no glory in death, only an eternity of carnage and slaughter, and the endless laughter of thirsting gods...';
+        hp.textContent = 'DECEASED';
     }
 
     else {
-        // otherwise show the user hp
+
         hp.textContent = user.hp;
     }
 

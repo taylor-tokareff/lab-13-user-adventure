@@ -234,8 +234,9 @@ a:visited {
     display: none;
 }
 
-#quest-form {
+#choice-form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;

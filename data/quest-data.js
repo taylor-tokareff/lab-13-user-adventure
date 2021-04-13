@@ -49,7 +49,7 @@ const tower = {
     title: 'The Abandoned Tower',
     map: {
         top: '10%',
-        left: '69%'
+        left: '65%'
     },
     image: '../img/tower.PNG',
     description:
@@ -61,12 +61,12 @@ const tower = {
 
     choices: [{
         id: 'search',
-        description: 'Search for treasure',
+        description: 'instant death',
         result: `
                 You scour the crypts interior finding a few gold pieces scattered among the remains of the dead. As
                 you continue to sort through piles of bones, you feel your weight shift slightly under your left foot and hear a sharp crack, IT'S A TRAP!!! You instinctively shift your weight back towards your right side and dive away from the pressure plate you inadvertently triggered but even your super human reflexes are not fast enough and one of the three arrows that came flying from a hidden panel in the wall pierces your left shoulder. After you compose yourself, you decide it's best not to press your luck and you hobble away from this unholy place.
             `,
-        hp: -25,
+        hp: -200,
         gold: 20
     }, {
         id: 'offering',
