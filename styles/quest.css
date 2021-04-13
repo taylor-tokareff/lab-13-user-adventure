@@ -150,11 +150,6 @@ input:-webkit-autofill{
 
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-}
-
 .blinking{
     animation:blinkingText 1.2s infinite;
     font-family: 'Creepster', cursive;
@@ -184,6 +179,9 @@ input:-webkit-autofill{
     font-size: 30px;
     box-shadow: 2px 2px 2px 2px rgb(20, 180, 47);
     justify-self: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .radio {
@@ -234,11 +232,4 @@ a:visited {
     display: none;
 }
 
-#choice-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    justify-items: center;
-}
+

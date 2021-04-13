@@ -2,7 +2,7 @@ import loadProfile from '../data/load-profile.js';
 import { getUser, saveUser } from '../data/stringy.js';
 import quests from '../data/quest-data.js';
 import { findById, statUpdater, choiceCreator } from '../data/quest-functions.js';
-import { questCompleter } from '../quest-status/quest-status.js';
+//import { questCompleter } from '../quest-status/quest-status.js';
 
 loadProfile();
 
