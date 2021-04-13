@@ -1,17 +1,17 @@
 export const aliveGoldMessages = {
-    poor: 'you live as a poor beggar',
-    modest: 'you live in a modest hut farming the earth',
-    rich: 'you and your whole family live in small castle in luxury',
+    poor: 'Perhaps you would have been better off becoming a cobbler',
+    modest: 'Your cousin who went to bard college takes pity on your misfortune and gives you a job cleaning his stables',
+    rich: 'You use your wealth to buy a large castle where you reign over your subjects with fear and an iron gauntlet',
 };
 
 export const deadGoldMessages = {
-    poor: 'you leave nothing for your family',
-    modest: 'you leave enough to buy your family a turkey dinner at the pub',
-    rich: 'your family builds a monument in your honor'
+    poor: 'nothing to show for your adventures your family never speaks your name again',
+    modest: 'the gold you managed to acquire is lost to the sands of time, just like your corpse',
+    rich: 'but at least your rich'
 };
 
 export const hpMessages = {
-    dead: 'you are dead',
-    frail: 'you retire in frail health',
-    healthy: 'you retire and live a long life in good health',
+    dead: 'You succumb to your wounds. There is no glory in death, only an eternity of carnage and slaughter, and the endless laughter of ever thirsting gods...',
+    frail: 'Severely damaged from your adventures you spend the remainder of your days ravaged by pain',
+    healthy: 'You somehow escape the gauntlet of horrors with your health intact',
 };
