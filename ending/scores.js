@@ -12,7 +12,7 @@ export function scoreHp(hp) {
     if (hp <= 0) {
         return 'dead';
     }
-    if (hp < 50) {
+    if (hp <= 50) {
         return 'frail';
     }
     return 'healthy';
